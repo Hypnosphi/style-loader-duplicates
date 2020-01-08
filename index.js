@@ -1,2 +1,2 @@
-import './a.css';
-import './b.css';
+import './custom-btn';
+import './base-button';
