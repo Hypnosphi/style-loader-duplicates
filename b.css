@@ -1,1 +1,6 @@
-@import './common.css';
+.baz {
+    composes: foo from './common.css';
+    composes: bar from './a.css';
+
+    color: green;
+}
