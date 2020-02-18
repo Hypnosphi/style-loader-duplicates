@@ -1,7 +1,4 @@
-import {bar} from './a.css';
-import {baz} from './b.css';
+import {a} from './a.css'
+import {b} from './b.css'
 
-document.body.innerHTML = `
-  <div class="${bar}">bar</div>
-  <div class="${baz}">baz</div>
-`;
+document.body.innerHTML = `<div class="${b} ${a}">Text</div>`
